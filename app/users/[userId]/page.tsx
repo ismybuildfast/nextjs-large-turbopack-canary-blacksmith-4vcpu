@@ -1,8 +1,6 @@
 import { getUser, getUsers } from "@/lib/get-users";
 import { PaperClipIcon } from "@heroicons/react/20/solid";
 
-export const runtime = "edge";
-
 export async function generateStaticParams() {
   const users = getUsers();
   return users.map((users) => ({
