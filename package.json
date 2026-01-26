@@ -1,10 +1,9 @@
 {
-  "name": "nextjs",
+  "name": "nextjs-large-turbopack-canary-blacksmith-4vcpu",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "./build.sh",
     "build-only": "next build --turbopack",
     "start": "next start",
     "lint": "next lint"
